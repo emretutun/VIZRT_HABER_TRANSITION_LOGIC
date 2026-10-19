@@ -1,0 +1,55 @@
+# ---- Makineye özel dosyalar ----
+appsettings.json
+**/appsettings.json
+log.txt
+**/log.txt
+# Exe yanındaki örnek veri klasörü
+**/bin/**/data/
+*.user
+*.suo
+
+# ---- Yerelde kalan klasör ve notlar (depoya girmez) ----
+.claude/
+docs/
+SHOW_TV_ANAHABER/Data/
+DURUM.md
+
+# ---- Derleme çıktıları ----
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+*.pdb
+*.cache
+*.log
+
+# ---- Visual Studio ----
+.vs/
+*.VC.db
+*.VC.VC.opendb
+*.ncb
+*.sdf
+*.opensdf
+*.vspscc
+*.vssscc
+*.pfx
+*.publishsettings
+*.swp
+*~
+ipch/
+TestResults/
+packages/
+*.nupkg
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# ---- Araç dökümleri (Engine'den alınan sahne ağaçları) ----
+tools/*.txt
+
+# ---- İşletim sistemi ----
+Thumbs.db
+Desktop.ini
+.DS_Store
